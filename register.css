@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  padding-top: 0px;
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(to right, #f1e0b6, #ffe3a2, #fabdbf);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, .5);
+  overflow: hidden;
+}
+
+.container i{
+  margin-right: 10px;
+}
+
+.container p{
+  color: black;
+  font-family: 'Poppins', Monospace;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 13px;
+  margin-bottom: -5px;
+}
+
+.user {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.idpw{
+  display: flex;
+  justify-content: space-between;
+}
+
+select{
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 35px;
+  border: none;
+  color: grey;
+  margin-top: 7px;
+  letter-spacing: 0.5px;
+  font-family: Arial, Monospace;
+  font-size: 12px;
+}
+
+.imgBx {
+  position: relative;
+  padding: 40px;
+  width: 50%;
+  height: 100%;
+  background-color: #f7d380;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBx img {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro h2 {
+  position: relative;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.introDes p {
+  position: relative;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  color: #333;
+  line-height: 23px;;
+}
+
+.formBx {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.formBx h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #f1b321;
+  text-shadow: 0px 0px 5px #f7d380;
+}
+
+.formBx input {
+  width: 100%;
+  font-weight: 300;
+  background-color: #f5f5f5;
+  padding: 10px;
+  color: #333;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  margin: 8px 0;
+  letter-spacing: 0.5px;
+  font-family: Arial, Monospace;
+}
+
+.conid input{
+  width: 90%;
+  float: left;
+}
+
+.conpw input{
+  width: 90%;
+  float: right;
+}
+
+.conpw p{
+  padding-left: 10%;
+}
+
+.signup-button{
+  display: flex;
+}
+
+.signup-item{
+  flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+}
+
+.gender label {
+  color: #7d7d7d;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+
+.gender{
+  width: 100%;
+  height: 30px;
+  font-weight: 300;
+  background-color: none;
+  padding: 0;
+  color: #333;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+  font-family: Arial, Monospace;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gender input{
+  padding: 0;
+  width: 30%;
+  margin: 0;
+}
+
+.signup-button input[type="reset"] {
+  margin-right: 10%;
+  width:90%;
+  background-color: #fff;
+  color: #f1b321;
+  border: #f1b321 2px solid;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.signup-button input[type="submit"] {
+  margin-left: 10%;
+  width: 90%;
+  background-color: #f4c555;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.signup {
+  position: relative;
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #555;
+  text-transform: uppercase;
+}
+
+.signup a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #ca7982ef;
+}
